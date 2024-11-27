@@ -1,4 +1,5 @@
 Summative Assignment: System Deployment Summary
+
 Objective
 The assignment involves deploying a Machine Learning classification model for plant disease recognition. The deployment process includes creating a complete ML pipeline, implementing cloud scalability, monitoring, and retraining capabilities, and demonstrating a production-ready system.
 ________________________________________
@@ -7,23 +8,28 @@ Key Deliverables
 o	A Machine Learning classification model will be developed offline using a dataset of plant diseases.
 o	The model will be saved in .pkl or .tf formats.
 o	Evaluation metrics will be demonstrated in a Jupyter Notebook to showcase the model's performance.
+
 2.	Pipeline Development
 o	Create Python-based functions for preprocessing, model training, prediction, and retraining.
 o	Build an end-to-end pipeline for the entire process, ensuring the system can handle retraining when triggered by new data.
+
 3.	Deployment on Cloud
 o	Host the pipeline on a cloud platform to allow public access.
 o	Include scalability features to handle high traffic, leveraging tools like Docker and cloud services.
 o	Simulate high loads with Locust and analyze response times and latencies under different container setups.
+
 4.	Desktop App
 o	Develop a user-friendly Desktop app for:
 	Uploading images for predictions.
 	Viewing visualizations of key dataset features.
 	Uploading bulk data to trigger model retraining.
+
 5.	Functional Requirements
 o	Model Prediction: Predict plant diseases from single data points (e.g., images).
 o	Visualizations: Generate meaningful insights from at least three dataset features, illustrating patterns or trends.
 o	Data Upload: Enable bulk data uploads for retraining purposes.
 o	Retraining Trigger: Include a feature to initiate retraining manually with uploaded data.
+
 6.	Documentation
 o	GitHub Repository:
 	Include a clear project structure with code, models, and documentation.
